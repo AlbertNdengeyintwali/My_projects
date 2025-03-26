@@ -13,10 +13,12 @@
 ## Introduction
 
 - In economics, a production function relates the physical output of a production process to physical inputs or factors of production.
-
 - It is a mathematical function that relates the amount of output that can be obtained from a given number of inputs.
-
 - The production function could be expressed in a general form such as $Q=f(x_1, x_2, \cdot, x_n)$, where $Q$ denotes the output of the firm, and $x_1, x_2, \cdots, x_n$ are the values of inputs.
+- Apart from production function, another important concept in economics is the economic cost. 
+- If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by $$C=r_1x_1+r_2x_2+\cdots +r_nx_n$$
+
+
 
 ## Problem Statement
 
