@@ -18,13 +18,27 @@
 - Apart from production function, another important concept in economics is the economic cost. 
 - If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by $$C=r_1x_1+r_2x_2+\cdots +r_nx_n$$
 
+ **Example**:
+ Cobb-Douglass production function, Constant Elasticity of Substitution production function, Linear production function, etc.
+
+### Why production functions?
+
+- The production function is the central part of productiontheory, and there is theoretical interest in its estimates.
+- Economists are often involved in describing activity at the level of a firm, an industry, or the economy as a whole through the production function approach
+- he production function also gives information about increasing or decreasing returns to scale and the marginal products of labor and capital.
 
 
 ## Problem Statement
 
-- **The Challenge**: Define the problem clearly — that businesses or industries often struggle to maximize production output while maintaining cost efficiency.
-- **Existing Limitations**: Discuss the limitations of traditional Cobb-Douglas production functions, especially in terms of cost and resource constraints.
-- **Key Questions**: Identify the key questions your research will answer, such as "How can output be maximized under specific cost constraints?" or "What mathematical or computational models best address this optimization?"
+- A most familiar empirical production function found out by statistical methods is the Cobb-Douglas production function.
+- When there are two inputs $K$ and $L$, the Cobb-Douglass production function has the form: $Q=AL^{\alpha}K^{\beta}$,  with $Q$ as the  output, $L$ as the quantity of labour employed, $K$ as the quantity of capital employed, and $A, \alpha$ and $\beta$ are positive constants.
+- In its general form, where more than two inputs are needed  
+\begin{equation}
+Q=A \prod_{i=1}^n L_{i}^{\alpha_i}, \quad L=\left(L_1, L_2, \cdots,  L_n\right)
+\end{equation}
+- In this final year project, we consider  a firm that buys four inputs $K, L, R$, and $M$, for its production output $Q$ over a period of 12 months.
+- The set data representing these variables is available. The Cobb-Douglass production of this firm is given by:
+ $Q(K,L,R,M) = AK^{\alpha}L^{\beta}R^{\gamma}M^{\eta}$
 
 ## Objectives
 
