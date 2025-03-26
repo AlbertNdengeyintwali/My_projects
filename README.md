@@ -100,10 +100,9 @@ $$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 - We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
 - The production $Q$ and the units of inputs used over a period of 12 months are presented in the following table.
 
-  | Months | Q   | K  | L  | M  | N  |
-|--------|-----|----|----|----|----|
+| Months |   Q  |  K  |  L  |  M  |  N  |
+|--------|----:|---:|---:|---:|---:|
 | Jan    | 240 | 25 | 24 | 91 | 100 |
-|--------|-----|----|----|----|----|
 | Feb    | 236 | 31 | 21 | 90 |  95 |
 | Mar    | 270 | 45 | 24 | 88 | 110 |
 | Apr    | 274 | 60 | 25 | 87 |  88 |
