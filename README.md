@@ -16,7 +16,7 @@
 - It is a mathematical function that relates the amount of output that can be obtained from a given number of inputs.
 - The production function could be expressed in a general form such as $Q=f(x_1, x_2, \cdot, x_n)$, where $Q$ denotes the output of the firm, and $x_1, x_2, \cdots, x_n$ are the values of inputs.
 - Apart from production function, another important concept in economics is the economic cost. 
-- If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by
+- If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by:
 
   $$C=r_1x_1+r_2x_2+\cdots +r_nx_n$$
 
@@ -53,15 +53,36 @@ $$
 \end{array}
 $$
 
+- Given the amount  $Q_0$ of the production of that a firm want to get, and the price of each unit of the outputs $K,L,R,M$ and the available amount of money $C$, we want to determine an optimal combination of these inputs:
+
+  $$
+\begin{array}{ccc}
+\text{Optimize} & Q(K,L,R,M) = A K^{\hat{\alpha}} L^{\hat{\beta}} R^{\hat{\gamma}} M^{\hat{\eta}} \\
+\text{Subject to} & r_1 K + r_2 L + r_3 R + r_4 M = C.
+\end{array}
+$$
+
+Mathematically, the problem to solve is the following:
+
+$$
+\begin{array}{ccc}
+\text{Optimize} & r_1K + r_2L + r_3R + r_4M = C \\
+\text{Subject to} & A K^{\hat{\alpha}} L^{\hat{\beta}} R^{\hat{\gamma}} M^{\hat{\eta}} = Q_0.
+\end{array}
+$$
+
+- The problems are solved by using the method of Lagrange multiplies.
+
 
 ## Objectives
 
-- **Primary Objective**: To develop an optimization model for output from the generalized Cobb-Douglas production function, incorporating cost constraints.
+- **Primary Objective**: o optimize the output from the generalized Cobb-Douglass production function in a given company where more than two inputs are available
+while accounting for cost linear constraints satisfied by those inputs.
 - **Secondary Objectives**:
-    - To derive optimal production levels for given cost constraints.
-    - To analyze the relationship between input factors, cost, and output.
-    - To identify the most efficient allocation of resources under the cost constraint.
-    - To evaluate the performance of the generalized Cobb-Douglas production function in comparison to standard models.
+    1 To estimate the parameters of the generalized Cobb-Douglass production function in a firm with more than two inputs.
+    2 To analyze the relationship between input factors, cost, and output.
+    3 To identify the most efficient allocation of resources under the cost constraint.
+    4 To evaluate the performance of the generalized Cobb-Douglas production function in comparison to standard models.
 
 ## Results
 
