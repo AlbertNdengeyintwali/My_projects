@@ -79,17 +79,42 @@ $$
 - **Primary Objective**: o optimize the output from the generalized Cobb-Douglass production function in a given company where more than two inputs are available
 while accounting for cost linear constraints satisfied by those inputs.
 - **Secondary Objectives**:
-    1 To estimate the parameters of the generalized Cobb-Douglass production function in a firm with more than two inputs.
-    2 To analyze the relationship between input factors, cost, and output.
-    3 To identify the most efficient allocation of resources under the cost constraint.
-    4 To evaluate the performance of the generalized Cobb-Douglas production function in comparison to standard models.
+    - To estimate the parameters of the generalized Cobb-Douglass production function in a firm with more than two inputs.
+    - To determine how much output to produce from the Cobb-Douglas production function for a given amount of inputs.
+    - To know the maximum output from the Cobb-Douglass production function, and what combination of inputs to be used given the price of inputs.
+ 
+**Example of a Cobb-Douglass production function**:
+
+- Here's an example of a production function: $Q = K^{0.3} \cdot L^{0.7}$.
+- Here, $Q$ represents the total output, $K$ represents the amount of capital used in production, and $L$ represents the amount of labor used in production. 
+- The exponents $0.3$ and $0.7$ represent the elasticity of output with respect to capital and labor, respectively.
+- If we have $10$ units of capital and $20$ units of labor, we can calculate the total output as follows:
+  
+$$Q = & 10^{0.3} \cdot 20^{0.7}=16.245$$
+
 
 ## Results
 
-- **Model Development**: Present the mathematical development of the generalized Cobb-Douglas function with incorporated cost constraints.
-- **Optimization Process**: Outline the steps taken to optimize output, including the solution methodology (such as Lagrange multipliers or linear programming).
-- **Findings**: Summarize the results, including numerical simulations or graphical representations of optimized output vs. cost constraints.
-- **Comparison with Traditional Approaches**: Provide a comparative analysis of the generalized model versus simpler models without cost constraints.
+### Estimating the parameters in the Cobb-Douglass production function
+
+- We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
+- The production $Q$ and the units of inputs used over a period of 12 months are presented in the following table.
+
+  | Months | Q   | K  | L  | M  | N  |
+|--------|----:|---:|---:|---:|---:|
+| Jan    | 240 | 25 | 24 | 91 | 100 |
+| Feb    | 236 | 31 | 21 | 90 |  95 |
+| Mar    | 270 | 45 | 24 | 88 | 110 |
+| Apr    | 274 | 60 | 25 | 87 |  88 |
+| May    | 301 | 65 | 25 | 91 |  94 |
+| Jun    | 316 | 72 | 26 | 94 |  99 |
+| Jul    | 300 | 80 | 25 | 87 |  97 |
+| Aug    | 296 | 84 | 25 | 86 |  96 |
+| Sep    | 267 | 75 | 24 | 88 | 110 |
+| Oct    | 276 | 60 | 25 | 91 | 105 |
+| Nov    | 288 | 50 | 25 | 90 | 100 |
+| Dec    | 261 | 38 | 23 | 89 |  98 |
+
 
 ## Conclusion and Recommendations
 
