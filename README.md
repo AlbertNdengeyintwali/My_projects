@@ -119,8 +119,6 @@ $$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 
 $$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$$
 
-### Estimating the parameters in the Cobb-Douglass Production function
-
 - Since $\alpha + \beta + \gamma + \eta=0.147172253 + 0.520665159 + 0.762692634 + 0.044302849 = 1.474832894  > 1$, it follows that we have increasing returns to scale.
 - This means that the output increases in a greater proportion than the increase in all inputs.
 - Since the efficient parameter $A = 0.768$ it follows  that the inputs used in the production process are being used with an efficiency of $76.8\%$ of their maximum potential.
@@ -139,6 +137,29 @@ $$
 \end{eqnarray}
 $$
 
+- Using the method of Lagrange multipliers we obtain the following value
+$K = 59.7966102, L = 353.220339, M = 620.745763,\text{ and } N = 44.7457627$
+- Testing the nature of this point, we conclude that the point gives the maximum output for the firm.  Hence the maximum  of the firm under the given constraint is given by:
+
+$$Q_{\max}(K,L,M,N) = 4,760.91877869938 $$
+
+###  Optimum combination of inputs for a determined output
+
+- We consider the same firm with the same production function, where four inputs are required, with the production function.
+  
+$$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}  $$
+
+- The inputs prices per unit are the same as in the previous section. We assume that the company want an output of $1,200$ units, and the question is to find the optimum way of producing these units.
+- The mathematical problem to solve is the following:
+
+  $$
+\begin{eqnarray}
+\begin{array}{ccc}
+\text{Optimize} & 50K + 30L +25M + 20N\\
+\text{Subject to } &  0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044} = 1,200 
+\end{array}
+\end{eqnarray}
+$$
 
 ## Conclusion and Recommendations
 
