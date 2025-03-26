@@ -33,9 +33,9 @@
 - A most familiar empirical production function found out by statistical methods is the Cobb-Douglas production function.
 - When there are two inputs $K$ and $L$, the Cobb-Douglass production function has the form: $Q=AL^{\alpha}K^{\beta}$,  with $Q$ as the  output, $L$ as the quantity of labour employed, $K$ as the quantity of capital employed, and $A, \alpha$ and $\beta$ are positive constants.
 - In its general form, where more than two inputs are needed  
-\begin{equation}
-Q=A \prod_{i=1}^n L_{i}^{\alpha_i}, \quad L=\left(L_1, L_2, \cdots,  L_n\right)
-\end{equation}
+
+$$Q=A \prod_{i=1}^n L_{i}^{\alpha_i}, \quad L=\left(L_1, L_2, \cdots,  L_n\right)$$
+
 - In this final year project, we consider  a firm that buys four inputs $K, L, R$, and $M$, for its production output $Q$ over a period of 12 months.
 - The set data representing these variables is available. The Cobb-Douglass production of this firm is given by:
  $Q(K,L,R,M) = AK^{\alpha}L^{\beta}R^{\gamma}M^{\eta}$
