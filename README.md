@@ -161,14 +161,22 @@ $$
 \end{eqnarray}
 $$
 
+- The stationary point is given by: $K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$
+- Testing the nature of this point, we conclude that the point gives the minimum. Thus the values for $K, L, M, N$ determine the the minimum point.
+- Accordingly, the cheapest cost level for producing this output will therefore be $50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$ 11,785.6105079$
+
 ## Conclusion and Recommendations
 
-- **Summary of Key Findings**: Recap the main outcomes from the optimization process and how they contribute to solving the problem at hand.
-- **Implications for Practice**: Discuss the practical implications of your results, particularly for businesses or industries looking to optimize production processes while staying within budget.
-- **Limitations of the Study**: Highlight any limitations encountered during the study, such as assumptions made or data constraints.
-- **Suggestions for Future Research**: Suggest potential areas for further investigation, such as extending the model to multiple sectors or refining cost constraint mechanisms.
+### Conclusion
+- In this work we have used the method of  Lagrange multipliers to solve problem  related to optimization of production function under a set of cost constraints.
+- We have estimated the parameters of the Cobb-Douglass production function in a firm with four inputs, by using the data on a period of 12 months.
+- We have optimized the output from the Cobb-Douglass production function under one linear constraint.
+- We have determined the optimal combination of inputs given the amount of units in the outputs the firm want to produce.
 
----
+### Recommendations
 
-This document provides a brief outline and summary of the analysis process, optimization techniques, and results obtained for the generalized Cobb-Douglas production function under cost constraints.
+- Future research could use real-world data to validate the results and provide more practical insights.
+- Future research could compare the Generalized Cobb-Douglass Production Function with other production functions such as the CES Production Function to determine the best fit for different industries and situations.
+
+
 
