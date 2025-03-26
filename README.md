@@ -90,7 +90,7 @@ while accounting for cost linear constraints satisfied by those inputs.
 - The exponents $0.3$ and $0.7$ represent the elasticity of output with respect to capital and labor, respectively.
 - If we have $10$ units of capital and $20$ units of labor, we can calculate the total output as follows:
   
-$$Q = & 10^{0.3} \cdot 20^{0.7}=16.245$$
+$$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 
 
 ## Results
@@ -101,7 +101,7 @@ $$Q = & 10^{0.3} \cdot 20^{0.7}=16.245$$
 - The production $Q$ and the units of inputs used over a period of 12 months are presented in the following table.
 
   | Months | Q   | K  | L  | M  | N  |
-|--------|----:|---:|---:|---:|---:|
+|--------|-----|----|----|----|----|
 | Jan    | 240 | 25 | 24 | 91 | 100 |
 | Feb    | 236 | 31 | 21 | 90 |  95 |
 | Mar    | 270 | 45 | 24 | 88 | 110 |
