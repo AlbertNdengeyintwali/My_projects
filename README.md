@@ -152,11 +152,13 @@ $$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}  $$
 - The inputs prices per unit are the same as in the previous section. We assume that the company want an output of $1,200$ units, and the question is to find the optimum way of producing these units.
 - The mathematical problem to solve is the following:
 
-  $$
+$$
+\begin{eqnarray}
 \begin{array}{ccc}
-\text{Optimize} & 50K + 30L +25M + 20N\\
+\text{Optimize } & 50K + 30L +25M + 20N\\
 \text{Subject to } &  0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044} = 1,200 
 \end{array}
+\end{eqnarray}
 $$
 
 ## Conclusion and Recommendations
