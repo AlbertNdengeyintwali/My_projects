@@ -46,12 +46,13 @@ $$Q(K,L,R,M) = AK^{\alpha}L^{\beta}R^{\gamma}M^{\eta}$$
 - Assuming that the firm has the amount $C$, which maybe used to buy the four inputs, it follows that we must have the equality $r_1K+r_2L+r_3R+r_4M=C$.
 - Using the estimated parameters $\hat{\alpha}, \hat{\beta}, \hat{\gamma}, \hat{\eta}$,  the second problem considered is to optimize the production under this constraint of available cost. Mathematically, we consider the problem:
 
-\begin{eqnarray}
+$$
 \begin{array}{ccc}
-\text{Optimize} & Q(K,L,R,M) = AK^{\hat{\alpha}}L^{\hat{\beta}}R^{\hat{\gamma}}M^{\hat{\eta}}\\
-\text{Subject to } & r_1K+r_2L+r_3R+r_4M=C. 
+\text{Optimize} & Q(K,L,R,M) = A K^{\hat{\alpha}} L^{\hat{\beta}} R^{\hat{\gamma}} M^{\hat{\eta}} \\
+\text{Subject to} & r_1 K + r_2 L + r_3 R + r_4 M = C.
 \end{array}
-\end{eqnarray}
+$$
+
 
 ## Objectives
 
