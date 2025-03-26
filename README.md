@@ -178,26 +178,32 @@ $$
 - Future research could use real-world data to validate the results and provide more practical insights.
 - Future research could compare the Generalized Cobb-Douglass Production Function with other production functions such as the CES Production Function to determine the best fit for different industries and situations.
 
-  $$\frac{\partial^2 G}{\partial K^2}  = \lambda \left(0.096630976K^{-1.853}L^{0.521}M^{0.763}N^{0.044}\right)$$ 
+  $$\frac{\partial^2 G}{\partial K^2}  = \lambda \left(0.096630976K^{-1.853}L^{0.521}M^{0.763}N^{0.044}\right)$$
+  
  $$\frac{\partial^2 G}{\partial K \partial L}  = \lambda \left(-0.056418048K^{-0.853}L^{-0.479}M^{0.763}N^{0.044}\right) $$
+ 
 $$\frac{\partial^2 G}{\partial K \partial M}  = \lambda \left(-0.086139648K^{-0.853}L^{0.521}M^{-0.237}N^{0.044}\right)$$
+
  $$\frac{\partial^2 G}{\partial K \partial N}   = \lambda \left(-0.004967424K^{-0.853}L^{0.521}M^{0.763}N^{-0.956}\right)$$
+ 
 $$\frac{\partial^2 G}{\partial L^2}   =  \lambda \left(0.191661312K^{0.147}L^{-1.479}M^{0.763}N^{0.044}\right)$$
+
 $$\frac{\partial^2 G}{\partial L \partial M}   = \lambda \left(-0.305297664K^{0.147}L^{-0.479}M^{-0.237}N^{0.044}\right)$$
+
 $$\frac{\partial^2 Q}{\partial L \partial N}   = \lambda \left(-0.017605632K^{0.147}L^{-0.479}M^{0.763}N^{-0.956}\right)$$
+
 $$\frac{\partial^2 G}{\partial M^2}   =  \lambda \left(0.138878208K^{0.147}L^{0.521}M^{-1.237}N^{0.044}\right)$$
+
 $$\frac{\partial^2 G}{\partial M \partial N}  = \lambda \left(-0.025783296K^{0.147}L^{0.521}M^{-0.237}N^{-0.956}\right)$$
+
 $$\frac{\partial^2 G}{\partial N^2} = \lambda \left(0.032305152K^{0.147}L^{0.521}M^{0.763}N^{-1.956}\right)$$
 
 Thus the matrix $\pmb{W}$ which is symmetric is given by
 
 $$\pmb{W} = \begin{bmatrix}
 \dfrac{\partial^2 G}{\partial K^2} & \dfrac{\partial^2 G}{\partial K \partial L} & \dfrac{\partial^2 G}{\partial K \partial M} & \dfrac{\partial^2 G}{\partial K \partial N}\\\\
-
 \dfrac{\partial^2 G}{\partial L \partial K} & \dfrac{\partial^2 G}{\partial L^2} & \dfrac{\partial^2 G}{\partial L \partial M} & \dfrac{\partial^2 G}{\partial L \partial N}\\\\
-
 \dfrac{\partial^2 G}{\partial M \partial K} & \dfrac{\partial^2 G}{\partial M \partial L} &   \dfrac{\partial^2 G}{\partial M^2}  & \dfrac{\partial^2 G}{\partial M \partial N}\\\\
-
 \dfrac{\partial^2 G}{\partial N \partial K} & \dfrac{\partial^2 G}{\partial N \partial L} & \dfrac{\partial^2 G}{\partial N \partial M} & \dfrac{\partial^2 G}{\partial N^2} 
 \end{bmatrix}$$
 
