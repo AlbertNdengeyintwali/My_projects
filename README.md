@@ -16,7 +16,9 @@
 - It is a mathematical function that relates the amount of output that can be obtained from a given number of inputs.
 - The production function could be expressed in a general form such as $Q=f(x_1, x_2, \cdot, x_n)$, where $Q$ denotes the output of the firm, and $x_1, x_2, \cdots, x_n$ are the values of inputs.
 - Apart from production function, another important concept in economics is the economic cost. 
-- If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by $$C=r_1x_1+r_2x_2+\cdots +r_nx_n$$
+- If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by
+
+  $$C=r_1x_1+r_2x_2+\cdots +r_nx_n$$
 
  **Example**:
  Cobb-Douglass production function, Constant Elasticity of Substitution production function, Linear production function, etc.
@@ -38,7 +40,18 @@ $$Q=A \prod_{i=1}^n L_{i}^{\alpha_i}, \quad L=\left(L_1, L_2, \cdots,  L_n\right
 
 - In this final year project, we consider  a firm that buys four inputs $K, L, R$, and $M$, for its production output $Q$ over a period of 12 months.
 - The set data representing these variables is available. The Cobb-Douglass production of this firm is given by:
- $Q(K,L,R,M) = AK^{\alpha}L^{\beta}R^{\gamma}M^{\eta}$
+
+$$Q(K,L,R,M) = AK^{\alpha}L^{\beta}R^{\gamma}M^{\eta}$$
+
+- Assuming that the firm has the amount $C$, which maybe used to buy the four inputs, it follows that we must have the equality $r_1K+r_2L+r_3R+r_4M=C$.
+- Using the estimated parameters $\hat{\alpha}, \hat{\beta}, \hat{\gamma}, \hat{\eta}$,  the second problem considered is to optimize the production under this constraint of available cost. Mathematically, we consider the problem:
+
+\begin{eqnarray}
+\begin{array}{ccc}
+\text{Optimize} & Q(K,L,R,M) = AK^{\hat{\alpha}}L^{\hat{\beta}}R^{\hat{\gamma}}M^{\hat{\eta}}\\
+\text{Subject to } & r_1K+r_2L+r_3R+r_4M=C. 
+\end{array}
+\end{eqnarray}
 
 ## Objectives
 
