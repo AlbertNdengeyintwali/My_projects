@@ -16,9 +16,11 @@
 
 - It is a mathematical function that relates the amount of output that can be obtained from a given number of inputs.
 
--    $$\text{The production function could be expressed in a general form such as }
+- - The production function could be expressed in a general form such as
+  $$
   Q = f(x_1, x_2, \cdots, x_n)
-  \text{ where }Q  \text{ denotes the output of the firm, and  are the values of inputs } \( x_1, x_2, \cdots, x_n \).$$ 
+  $$
+  where
 
 ## Problem Statement
 
