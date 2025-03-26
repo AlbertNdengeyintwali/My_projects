@@ -115,6 +115,29 @@ $$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 | Nov    | 288 | 50 | 25 | 90 | 100 |
 | Dec    | 261 | 38 | 23 | 89 |  98 |
 
+- Using the concepts from Multiple linear regression, we estimate the parameters of the Cobb-Douglass  Production function \ref{Albert} of this firm:
+
+$$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$$
+
+### Estimating the parameters in the Cobb-Douglass Production function
+
+- Since $\alpha + \beta + \gamma + \eta=0.147172253 + 0.520665159 + 0.762692634 + 0.044302849 = 1.474832894  > 1$, it follows that we have increasing returns to scale.
+- This means that the output increases in a greater proportion than the increase in all inputs.
+- Since the efficient parameter $A = 0.768$ it follows  that the inputs used in the production process are being used with an efficiency of $76.8\%$ of their maximum potential.
+
+### Optimizing the outputs from the Cobb-Douglass production function
+
+- The firm with the data above wants to buy the four inputs $K, L, M$, and $N$ at a per unit price of $\$ 50, \$ 30, \$ 25$ and $ \$ 20$, respectively, and operate with the production function $Q$.
+- The problem is to know the optimal output it can make for a total cost of $ \$ 30,000$.  Mathematically, the problem to solve is the following:
+
+$$
+\begin{eqnarray}
+\text{Optimize} &Q= 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}\\
+\text{Subject to } &  50K + 30L +25M + 20N=30,000 
+\end{array}
+\end{eqnarray}
+$$
+
 
 ## Conclusion and Recommendations
 
