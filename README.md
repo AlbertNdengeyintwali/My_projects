@@ -132,6 +132,7 @@ $$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$$
 
 $$
 \begin{eqnarray}
+\begin{array}{ccc}
 \text{Optimize} &Q= 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}\\
 \text{Subject to } &  50K + 30L +25M + 20N=30,000 
 \end{array}
